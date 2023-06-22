@@ -3,9 +3,7 @@ name: C/C++ CI
 
 on:
   push:
-    branches:
-      - master
-      - release/*
+
 
 jobs:
   build-esp32-wroom-at:
